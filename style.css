@@ -391,7 +391,7 @@ figure img {
   width: 100%;
   height: auto; }
 
-div {
+div.main, div.lead, div.service, div.cultura, div.kulturmarket, div.blog, div.photos, figcaption {
   padding-bottom: 75px; }
 
 h2 {
@@ -416,7 +416,7 @@ nav {
   nav li, nav h3 {
     padding-right: 20px; }
 
-#marketing {
+#marketing, #performance, #events, #collabaration, #concerts {
   background: #0f25e4;
   display: inline-block;
   margin-left: -10px;
@@ -452,7 +452,72 @@ footer {
   padding-bottom: 25px; }
 
 figcaption {
-  font-family: Consolas, Monaco, monospace; }
+  font-family: Consolas, Monaco, monospace;
+}
+
+figcaption.partners {
+  margin-top: 40px;
+}
+
+.block3-item {
+      display: inline-block;
+      margin: 20px 5px 5px 3px;
+      text-align: center;
+      z-index: 222;
+      position: relative;
+      width: 32%;
+      border: 2px solid;
+      padding:10px;
+      /*background-color: white;*/
+  }
+
+.block3-item p {
+        display: inline-flex;
+        z-index: 223;
+        position: relative;
+        text-align: center;
+    }
+
+/*.block3-items {
+      max-width: 1180px;
+      margin: 30px auto 0;
+      text-align: right;
+      padding-bottom: 15px;
+
+  }*/
+
+/*.block3-item a {
+      text-decoration: none;
+      font-size: 23px;
+      padding-top: 5px;
+  }*/
+
+nav.uslugi {
+    padding-bottom: 70px!important;
+}
 
 .uslugi h2, .blog h2 {
-  padding-bottom: 39px; }
+  padding-bottom: 39px;
+}
+
+.right {
+  float:right;
+  padding-right: calc(20%);
+}
+
+nav.mainuslugi {
+    padding-bottom:5px!important;
+    padding-top: 50px;
+}
+
+.mainuslugi h2, .blog h2 {
+  padding-bottom: 39px;
+}
+
+.events {
+  padding-bottom: 3px; }
+
+.events h2 {
+    padding-bottom: 20px;
+    margin-top: 60px;
+   }
