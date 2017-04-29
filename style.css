@@ -472,10 +472,16 @@ figcaption.partners {
   }
 
 .block3-item p {
+  /*position: fixed;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;*/
         display: inline-flex;
         z-index: 223;
         position: relative;
         text-align: center;
+        justify-content: space-between;
     }
 
 /*.block3-items {
@@ -521,3 +527,7 @@ nav.mainuslugi {
     padding-bottom: 20px;
     margin-top: 60px;
    }
+
+footer.projects {
+  padding-top: 30px;
+}
