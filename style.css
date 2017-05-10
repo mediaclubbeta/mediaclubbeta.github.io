@@ -430,8 +430,11 @@ h2 {
 
 @media only screen and (max-width: 480px) {
   .block3-item {display: flex;}
-  .block3-item > iframe { width:50%;}
+  .block3-item > iframe { width:auto;}
   .block3-item p {font-size:50%;}
+  .bg__foo, .bg__bar, .bg__baz, .bg__bazz
+  {width: 100%;
+  height: auto; }
 }
 
 nav {
@@ -444,7 +447,7 @@ nav {
   nav li, nav h3 {
     padding-right: 20px; }
 
-#marketing, #performance, #events, #collabaration, #concerts {
+#mission, #marketing, #performance, #events, #collabaration, #concerts {
   background: #0f25e4;
   display: inline-block;
   margin-left: -10px;
@@ -452,6 +455,10 @@ nav {
   margin-right: 5px;
   padding-right: 10px;
   color: #e4dfca; }
+
+#mission {
+  line-height: normal!important;
+}
 
 footer {
   width: 100%;
@@ -527,7 +534,7 @@ nav.uslugi {
     padding-bottom: 70px!important;
 }
 
-.uslugi h2, .blog h2 {
+.uslugi h2, .mainuslugi h2, .blog h2 {
   padding-bottom: 39px;
 }
 
@@ -539,10 +546,6 @@ nav.uslugi {
 nav.mainuslugi {
     padding-bottom:5px!important;
     padding-top: 50px;
-}
-
-.mainuslugi h2, .blog h2 {
-  padding-bottom: 39px;
 }
 
 .events {
@@ -605,21 +608,6 @@ footer.projects {
      box-shadow : inset 0 0 1em #111;
   }
 
-  .banner {
-    background-attachment: fixed;
-  width: 100%;
-  height: 100vh;
-  /*The Slides*/
-  &:nth-child(1) {
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/paisley.png);
-  }
-  &:nth-child(2) {
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/weather.png);
-  }
-  &:nth-child(3) {
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/swirl_pattern.png);
-  }
-}
 
 /* Demo Styles */
 .banner {
