@@ -424,15 +424,17 @@ h2 {
 @media only screen and (max-width: 1333px) {
   header h1 {float:none; margin-top:25px;}
   .lead {padding-bottom:98px;} /*41*/
-  .block3-item {display: flex;}
+
   /*.block3-item > iframe { width:50%;}*/
 }
 
 @media only screen and (max-width: 480px) {
-  .block3-item {display: relative; width: 100%;
-     height: auto;
-     padding-top: 61%;}
-  .resize { position: absolute;
+  .block3-item {
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .resize {
+    flex-shrink: 2; /* default 1 */
     top: 0;
     width: 100%;}
   .block3-item p {font-size:50%;}
