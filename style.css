@@ -424,6 +424,14 @@ h2 {
 @media only screen and (max-width: 1333px) {
   header h1 {float:none; margin-top:25px;}
   .lead {padding-bottom:98px;} /*41*/
+  .block3-item {display: flex;}
+  /*.block3-item > iframe { width:50%;}*/
+}
+
+@media only screen and (max-width: 480px) {
+  .block3-item {display: flex;}
+  .block3-item > iframe { width:50%;}
+  .block3-item p {font-size:50%;}
 }
 
 nav {
@@ -485,15 +493,15 @@ figcaption.partners {
       width: 32%;
       border: 2px solid;
       padding:10px;
-      /*background-color: white;*/
+       /*white-space:nowrap; */
+
   }
 
+.block3-item > iframe {
+  box-sizing:border-box;
+}
+
 .block3-item p {
-  /*position: fixed;
-  z-index: 3;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;*/
         display: inline-flex;
         z-index: 223;
         position: relative;
