@@ -432,12 +432,15 @@ h2 {
   .block3-item {
     display:flex;
     flex-wrap: wrap;
+
   }
   .resize {
-    flex-shrink: 2; /* default 1 */
-    top: 0;
-    width: 100%;}
-  .block3-item p {font-size:50%;}
+
+    flex-basis: auto;
+    width: 50%;  /* Or whatever */
+    height: 50%; /* Or whatever */
+    margin: auto;  }
+  /*.block3-item p {font-size:50%;}*/
   .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
    height: auto; }
 }
