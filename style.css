@@ -432,7 +432,7 @@ h2 {
   .block3-item {display: relative; width: 100%;
      height: auto;
      padding-top: 61%;}
-  .block3-item > iframe { position: absolute;
+  .resize { position: absolute;
     top: 0;
     width: 100%;}
   .block3-item p {font-size:50%;}
