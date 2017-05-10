@@ -429,12 +429,16 @@ h2 {
 }
 
 @media only screen and (max-width: 480px) {
-  .block3-item {display: flex;}
-  .block3-item > iframe { width:auto;}
+  .block3-item {display: flex;
+     width: 100%;
+     height: auto;
+     padding-top: 61%;}
+  .block3-item > iframe { position: absolute;
+    top: 0;
+    width: 100%; }
   .block3-item p {font-size:50%;}
-  .bg__foo, .bg__bar, .bg__baz, .bg__bazz
-  {width: 100%;
-  height: auto; }
+  .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
+   height: auto; }
 }
 
 nav {
