@@ -432,7 +432,8 @@ h2 {
   .block3-item {
     display:flex;
     flex-wrap: wrap;
-
+    height:auto;
+    width: 32%;
   }
 
   .block3-item iframe {
