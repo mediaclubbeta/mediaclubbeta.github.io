@@ -430,7 +430,7 @@ h2 {
 
 @media only screen and (max-width: 480px) {
   .block3-item {
-  position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;
+  position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;
   }
 
   .block3-item iframe {
