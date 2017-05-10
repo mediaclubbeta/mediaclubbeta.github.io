@@ -437,12 +437,12 @@ h2 {
   .resize {
 
     flex-basis: auto;
-    width: 50%;  /* Or whatever */
-    height: 50%; /* Or whatever */
+    /
     margin: auto;  }
   /*.block3-item p {font-size:50%;}*/
   .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
-   height: auto; }
+    display:flex;
+    flex-wrap: wrap; }
 }
 
 nav {
