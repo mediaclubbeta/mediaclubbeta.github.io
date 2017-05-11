@@ -432,11 +432,12 @@ h2 {
   .block3-item {
   overflow: hidden;
   width: auto;
+  
   }
 
   .block3-item iframe {
     /*margin-right: 20px;*/
-    max-width: 90%;
+    max-width: 100%;
   }
 
   /*.resize {
