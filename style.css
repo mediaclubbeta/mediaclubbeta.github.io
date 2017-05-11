@@ -431,11 +431,12 @@ h2 {
 @media only screen and (max-width: 480px) {
   .block3-item {
   overflow: hidden;
-    max-width: 25%;
+  width: auto;
   }
 
   .block3-item iframe {
-    padding-right: 10px;
+    padding-right: 50px;
+    max-width: 80%;
   }
 
   /*.resize {
