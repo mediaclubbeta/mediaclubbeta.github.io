@@ -435,8 +435,8 @@ h2 {
   }
 
   .block3-item iframe {
-    padding-right: 50px;
-    max-width: 80%;
+    margin-right: 20px;
+    max-width: 70%;
   }
 
   /*.resize {
