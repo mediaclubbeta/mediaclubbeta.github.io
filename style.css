@@ -435,7 +435,7 @@ h2 {
   }
 
   .block3-item iframe {
-
+    max-width: auto;
   }
 
   /*.resize {
