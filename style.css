@@ -432,21 +432,13 @@ h2 {
   .block3-item {
   overflow: hidden;
   width: auto;
-  height: auto;
-  }
 
+  }
   .block3-item iframe {
     /*margin-right: 20px;*/
     max-width: 100%;
-    max-height: 100%;
+
   }
-
-  /*.resize {
-
-    flex-basis: auto;
-
-    margin: auto;  }*/
-  /*.block3-item p {font-size:50%;}*/
   .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
     display:flex;
     flex-wrap: wrap; }
