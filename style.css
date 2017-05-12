@@ -441,16 +441,19 @@ h2 {
   }
     .bg__foo {
         background-image: url("img/electron-small.jpg")!important;
-        width: auto;
+        width: 50%;
+        height: 50%;
       }
     .bg__bar {
-        background-image : url("img/guitar-small.jpg");
+        background-image: url("img/logo2.gif")!important;
+        width: 50%;
+        height: 50%;
       }
     .bg__baz {
-        background-image : url("img/theater-small.jpg");
+        background-image: url("img/theater-small.jpg");
       }
     .bg__bazz {
-        background-image : url("img/art-small.jpg");
+        background-image: url("img/art-small.jpg");
       }
 }
 
