@@ -441,6 +441,7 @@ h2 {
   }
     .bg__foo {
         background-image: url("img/electron-small.jpg")!important;
+        width: auto;
       }
     .bg__bar {
         background-image : url("img/guitar-small.jpg");
