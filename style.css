@@ -441,15 +441,15 @@ h2 {
   }
     .bg__foo {
         background-image: url("img/electron-small.jpg")!important;
-        /*background-size: 400px 239px!important;*/
+        background-size: auto 200px!important;
         display: block!important;
         height: 200px!important;
 
       }
     .bg__bar {
         background-image: url("img/guitar-small.jpg")!important;
-        background-size: 100% 100%!important;
-    background-repeat: no-repeat!important;
+position:absolute!important;
+    background-attachment : scroll!important;
 
       }
     .bg__baz {
