@@ -441,26 +441,19 @@ h2 {
   }
     .bg__foo {
         background-image: url("img/electron-small.jpg")!important;
-        padding-top: 66.5625%;
-        /*background-size: auto 300px!important;
-        display: block!important;
-        height: 300px!important;
-        background-repeat: no-repeat!important;*/
-
+        background-attachment : scroll!important;
       }
     .bg__bar {
         background-image: url("img/guitar-small.jpg")!important;
-
-    background-attachment : scroll!important;
-
+        background-attachment : scroll!important;
       }
     .bg__baz {
         background-image: url("img/theater-small.jpg")!important;
         background-attachment : scroll!important;
       }
     .bg__bazz {
-        background-image: url("img/art-small.jpg");
-
+        background-image: url("img/art-small.jpg")!important;
+        background-attachment : scroll!important;
       }
 }
 
