@@ -441,7 +441,7 @@ h2 {
   }
   .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
 
-    display: none; }
+    width: 400px; }
 }
 
 
