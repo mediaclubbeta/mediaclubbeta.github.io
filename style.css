@@ -440,7 +440,7 @@ h2 {
 
   }
     .bg__foo {
-        background-image: url("img/electron-small.jpg");
+        background-image: url("img/electron-small.jpg")!important;
       }
     .bg__bar {
         background-image : url("img/guitar-small.jpg");
@@ -475,6 +475,10 @@ nav {
 
 #mission {
   line-height: normal!important;
+}
+
+.cult h2 {
+  padding-right: 75px;
 }
 
 footer {
@@ -594,6 +598,8 @@ footer.projects {
     background-image: url("img/electron.png");
     box-shadow : inset 0 0 1em #111;
   }
+
+
 
 .bg__bar {
     position : relative;
