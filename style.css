@@ -442,16 +442,16 @@ h2 {
     .bg__foo {
         background-image: url("img/electron-small.jpg")!important;
         background-size: 80px 50px!important;
-        background-repeat: no-repeat!important;
+
       }
     .bg__bar {
         background-image: url("img/guitar-small.jpg")!important;
-        background-size: auto!important;
+        background-size: inherit!important;
 
       }
     .bg__baz {
         background-image: url("img/theater-small.jpg")!important;
-        /*background-size: contain!important;*/
+        background-size: cover!important;
       }
     .bg__bazz {
         background-image: url("img/art-small.jpg");
