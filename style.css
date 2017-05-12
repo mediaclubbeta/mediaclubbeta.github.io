@@ -441,7 +441,7 @@ h2 {
   }
   .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
     display:flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
 }
 
 
