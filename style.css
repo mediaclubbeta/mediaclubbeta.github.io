@@ -439,9 +439,18 @@ h2 {
     max-width: 100%;
 
   }
-  .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
-
-    width: 400px; }
+    .bg__foo {
+        background-image: url("img/electron-small.jpg");
+      }
+    .bg__bar {
+        background-image : url("img/guitar-small.jpg");
+      }
+    .bg__baz {
+        background-image : url("img/theater-small.jpg");
+      }
+    .bg__bazz {
+        background-image : url("img/art-small.jpg");
+      }
 }
 
 
