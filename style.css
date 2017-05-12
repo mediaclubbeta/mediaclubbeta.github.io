@@ -441,9 +441,10 @@ h2 {
   }
     .bg__foo {
         background-image: url("img/electron-small.jpg")!important;
-        background-size: auto 200px!important;
+        background-size: auto 300px!important;
         display: block!important;
-        height: 200px!important;
+        height: 300px!important;
+        background-repeat: no-repeat!important;
 
       }
     .bg__bar {
