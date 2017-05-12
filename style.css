@@ -443,7 +443,7 @@ h2 {
         background-image: url("img/electron-small.jpg")!important;
         /*background-size: 400px 239px!important;*/
         display: block!important;
-  height: 0!important;
+        /*height: 0!important;*/
 
       }
     .bg__bar {
