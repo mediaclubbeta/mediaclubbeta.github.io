@@ -456,7 +456,7 @@ h2 {
       }
     .bg__baz {
         background-image: url("img/theater-small.jpg")!important;
-        background-size: cover!important;
+        background-attachment : scroll!important;
       }
     .bg__bazz {
         background-image: url("img/art-small.jpg");
