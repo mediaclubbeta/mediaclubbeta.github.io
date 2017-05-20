@@ -596,7 +596,7 @@ footer.projects {
     position: relative;
     height: 100vh;
     text-indent: -9999px;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: top center;
     background-size: cover;
     background-image: url("img/electron.png");
@@ -609,7 +609,7 @@ footer.projects {
     position : relative;
     height : 100vh;
     text-indent : -9999px;
-    background-attachment : fixed;
+    /*background-attachment : fixed;*/
     background-position   : top center;
     background-size       : cover;
     background-image : url("img/guitar.png");
@@ -619,7 +619,7 @@ footer.projects {
 .bg__baz {position : relative;
     height : 100vh;
     text-indent : -9999px;
-    background-attachment : fixed;
+    /*background-attachment : fixed;*/
     background-position   : top center;
     background-size       : cover;
     background-image : url("img/theater.png");
@@ -629,7 +629,7 @@ footer.projects {
 .bg__bazz {position : relative;
     height : 100vh;
     text-indent : -9999px;
-    background-attachment : fixed;
+    /*background-attachment : fixed;*/
     background-position   : top center;
     background-size       : cover;
     background-image : url("img/art.png");
